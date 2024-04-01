@@ -2,9 +2,9 @@ import { Link } from "react-router-dom"
 
 export default function Header() {
     return (
-        <header className="flex items-center justify-between w-[90%] py-7">
+        <header className="flex items-center justify-between w-[90%] py-7 absolute z-10 top-0">
             <Link href="/">
-                <p>StirllingPhotography</p>
+                <p className="font-bold">StirllingPhotography</p>
             </Link>
             <ul className="header-menu-list flex gap-4 items-center justify-center">
                 <Link href="/services">

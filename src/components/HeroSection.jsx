@@ -1,11 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import main_img from '../images/hero-img.jpg'
 import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 
 export default function HeroSection() {
-  return (
-    <section className='w-[90%] flex justify-between'>
-            <div className='py-48 flex flex-col gap-8 w-[70%] items-center'>
+    return (
+        <section className='w-[100%] flex justify-between h-screen' style={{ backgroundImage: `url(${main_img})` }}>
+            <div className='py-[22%] flex flex-col gap-8 w-[70%] items-center'>
                 <div className='flex flex-col gap-4 items-center'>
                     <h1 className='regular-48'>Stirling Grady Photography</h1>
                     <hr className='w-1/2 h-[1px] bg-white' />
@@ -13,7 +14,7 @@ export default function HeroSection() {
                 </div>
                 <Link href="/" className='px-20 py-4 border-[1px] border-white'>Book Now</Link>
             </div>
-            <div className='flex flex-col items-center gap-8'>
+            <div className='pt-[8%] flex flex-col items-center gap-8 pr-[5%]'>
                 <hr className='w-[2px] h-[50%] bg-white' />
                 <Link href="/">
                     <FaFacebookF className='text-2xl' />
@@ -27,5 +28,5 @@ export default function HeroSection() {
                 <hr className='w-[2px] h-[50%] bg-white' />
             </div>
         </section>
-  )
+    )
 }
