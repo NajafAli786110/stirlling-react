@@ -19,7 +19,7 @@ export default function Reviews() {
                         <img src={imgMain} alt='Hello World' className='border-t-2 pt-4 border-gray-400'/>
                     </div>
                     <div className='flex flex-col'>
-                        <img src={imgMain}  className='border-b-2 pb-4 border-gray-400'/>
+                        <img src={imgMain}  className='border-b-2 pb-4 border-gray-400' alt='girl smiling'/>
                         <div className='flex justify-center gap-8'>
                             <div className="text flex flex-col gap-4 border-r-2 pr-8 border-gray-400 pt-4">
                                 <p>Stirling Gradys baby photography is simply magical. He has a special talent for capturing those fleeting moments of childhood joy and innocence. Our photos are absolutely stunning and we will treasure them for years to come.</p>

@@ -50,3 +50,32 @@ body {
 .secondary-btn{
   @apply w-full text-center border-[1px] border-gray-300 py-3;
 }
+
+
+.tabs-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.tabs {
+  display: flex;
+}
+
+.tab {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.tab.active {
+  border-bottom: 2px solid white;
+}
+
+.my-portfolio-images
+{
+  height: 222px;
+  width: 350px;
+}
+.my-portfolio-images-main{
+  width: 724px;
+}
