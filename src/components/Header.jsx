@@ -4,7 +4,7 @@ export default function Header() {
     return (
         <header className="flex items-center justify-between w-[90%] py-7 absolute z-10 top-0">
             <Link href="/">
-                <p className="font-bold">StirllingPhotography</p>
+                <p className="font-bold logo-main">StirllingPhotography</p>
             </Link>
             <ul className="header-menu-list flex gap-4 items-center justify-center">
                 <Link href="/services">
@@ -22,7 +22,7 @@ export default function Header() {
             </ul>
             <Link
                 href="/contact"
-                className="px-9 bg-white rounded-full text-black py-2"
+                className="px-9 bg-white rounded-full text-black py-2 header-btn"
             >
                 Contact Us
             </Link>

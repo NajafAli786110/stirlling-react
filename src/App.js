@@ -7,7 +7,7 @@ import Services from "./components/Services";
 
 function App() {
   return (
-    <div className="App flex flex-col items-center justify-center w-full ">
+    <div className="App flex flex-col items-center justify-center w-full">
       <HeroSection />
       <About />
       <Services />

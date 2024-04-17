@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
   margin: 0;
   padding: 0;
   text-decoration: none;
@@ -44,13 +44,12 @@ body {
 .regular-42 {
   @apply text-[3.184vw] leading-[1.2em] font-semibold;
 }
-.regular-24{
+.regular-24 {
   @apply text-[2vw] leading-[1.2em] font-medium uppercase;
 }
-.secondary-btn{
+.secondary-btn {
   @apply w-full text-center border-[1px] border-gray-300 py-3;
 }
-
 
 .tabs-container {
   display: flex;
@@ -71,11 +70,114 @@ body {
   border-bottom: 2px solid white;
 }
 
-.my-portfolio-images
-{
+.my-portfolio-images {
   height: 222px;
   width: 350px;
 }
-.my-portfolio-images-main{
+.my-portfolio-images-main {
   width: 724px;
+}
+
+@media (max-width: 1000px) {
+  .header-menu-list {
+    display: none !important;
+  }
+  .hero-section {
+    padding: 80px 20px 35px 20px !important;
+  }
+  .hero-section-left {
+    align-items: flex-start !important;
+  }
+  .book-btn {
+    padding: 10px 30px !important;
+  }
+  .hero-section-inner {
+    align-items: flex-start !important;
+  }
+  .social-icons {
+    font-size: 16px !important;
+  }
+  .regular-48 {
+    font-size: 9.384vw;
+    font-weight: 700;
+    line-height: 1.2em;
+  }
+  .regular-42 {
+    font-size: 7.184vw;
+    font-weight: 600;
+    line-height: 1.2em;
+  }
+  .about-inner-container {
+    flex-direction: column !important;
+    margin-top: 30px !important;
+    gap: 24px !important;
+  }
+  .about-inner-container-left {
+    width: 100% !important;
+  }
+  .para {
+    font-size: 14px !important;
+  }
+  .logo-name {
+    width: 40% !important;
+  }
+  .services-grid-container {
+    flex-direction: column;
+    margin: 0px;
+  }
+  .grid-box-left-border {
+    border-right: 2px solid rgb(165, 163, 175);
+  }
+  .services-gird-boxes {
+    padding: 2rem;
+  }
+  .content-column {
+    flex-direction: column !important;
+  }
+  .tabs {
+    overflow-x: scroll;
+  }
+  .reviews {
+    flex-direction: column;
+    gap: 16px !important;
+  }
+  .reviews-box {
+    flex-direction: column-reverse;
+    gap: 5px !important;
+    padding-bottom: 20px;
+  }
+  .main-review-image {
+    width: 22%;
+    height: 100px;
+  }
+  .long-width-image
+  {
+    display: none !important;
+  }
+  .footer-main
+  {
+    flex-direction: column !important;
+  }
+  .footer-left, .footer-right
+  {
+    width: 100% !important;
+  }
+  .secondary-btn
+  {
+    width: 45% !important;
+    font-size: 18px !important;
+    line-height: 1.5rem;
+  }
+  .services-inner
+  {
+    gap: 32px !important;
+  }
+  .header-btn
+  {
+    padding: 10px 20px !important;
+  }
+  .logo-main
+  {
+    font-size: 20px !important;
+  }
 }
