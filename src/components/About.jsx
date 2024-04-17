@@ -3,7 +3,7 @@ import imgMain from "../images/Rectangle-119.jpg"
 
 export default function About() {
     return (
-        <div className='py-12 w-[90%] flex flex-col justify-center gap-2'>
+        <div className='py-12 w-[90%] flex flex-col justify-center gap-2' id='about'>
             <h2 className='regular-42'>About</h2>
             <div className='flex items-center justify-between about-inner-container'>
                 <div className='flex flex-col gap-4 w-[55%] about-inner-container-left'>

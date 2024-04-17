@@ -38,7 +38,7 @@ const Tabs = () => {
   };
 
   return (
-    <div className="py-12 w-[90%] flex flex-col gap-8">
+    <div className="py-12 w-[90%] flex flex-col gap-8" id="portfolio">
       <h2 className='regular-42'>Portfolio</h2>
       <div className="content-column flex gap-12">
         <div className="tabs-container">

@@ -4,7 +4,7 @@ import imgMain from "../images/Rectangle-122.jpg"
 
 export default function Services() {
     return (
-        <div className="py-12 w-[90%] flex flex-col items-center justify-center">
+        <div className="py-12 w-[90%] flex flex-col items-center justify-center" id='services'>
             <div className="w-full flex flex-col items-center justify-center gap-16 services-inner">
                 <h2 className='regular-42'>Services</h2>
                 <div className="w-full flex items-center gap-10 border-gray-400 border-y-2">

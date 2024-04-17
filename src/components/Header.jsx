@@ -1,31 +1,29 @@
-import { Link } from "react-router-dom"
-
 export default function Header() {
     return (
         <header className="flex items-center justify-between w-[90%] py-7 absolute z-10 top-0">
-            <Link href="/">
+            <a href="/">
                 <p className="font-bold logo-main">StirllingPhotography</p>
-            </Link>
+            </a>
             <ul className="header-menu-list flex gap-4 items-center justify-center">
-                <Link href="/services">
+                <a href="#about">
                     <li className="header-menu">About</li>
-                </Link>
-                <Link href="/services">
+                </a>
+                <a href="#portfolio">
                     <li className="header-menu">Portfolio</li>
-                </Link>
-                <Link href="/services">
+                </a>
+                <a href="#services">
                     <li className="header-menu">Services</li>
-                </Link>
-                <Link href="/contact">
+                </a>
+                <a href="#contact">
                     <li className="header-menu">Contact</li>
-                </Link>
+                </a>
             </ul>
-            <Link
+            <a
                 href="/contact"
                 className="px-9 bg-white rounded-full text-black py-2 header-btn"
             >
                 Contact Us
-            </Link>
+            </a>
         </header>
     )
 }

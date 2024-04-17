@@ -3,7 +3,7 @@ import imgMain from "../images/Rectangle-135.jpg"
 
 export default function Footer() {
     return (
-        <div className="py-12 w-[90%] flex flex-col items-start justify-start border-t-[1] border-gray-300">
+        <div className="py-12 w-[90%] flex flex-col items-start justify-start border-t-[1] border-gray-300" id='contact'>
             <div className="w-full flex items-center justify-center gap-12 footer-main">
                 <div className="w-[50%] footer-left">
                     <img src={imgMain} alt="showing an girl with smille" />
